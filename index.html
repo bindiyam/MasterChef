@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe</title>
+</head>
+<body ng-app="MasterChef" ng-controller="MainController">
+
+	<h2>Maintain Categories</h2>
+
+<div class="row">
+	<label class="col-mod-3">Category Name</label>
+	<input class="col-mod-9" type="text" ng-model="cat.name"/>
+</div>
+<div class="col-mod-3">
+	<label class="col-mod-3">Description </label>
+	<input class="col-mod-9" type="description" ng-model="cat.desc" />
+</div>
+<div class="col-mod-3">
+	<button ng-click="addCategory()">Add</button>
+</div>
+
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>	
+	<script src="app.js"></script>
+	<script src="categories/maintainCategoriesController.js"></script>	
+</body>
+</html>

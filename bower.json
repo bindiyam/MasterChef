@@ -1,0 +1,16 @@
+{
+  "name": "recipe",
+  "version": "0.0.0",
+  "authors": [
+    "Alexei Kazakov <akazakov@topazti.com>"
+  ],
+  "description": "Recipe Application Workshop",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
